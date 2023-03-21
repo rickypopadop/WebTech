@@ -6,6 +6,8 @@ html, body {
 
 .recipeBox {
 	float: left;
+	width: 25%;
+	
 }
 
 
