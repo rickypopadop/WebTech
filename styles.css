@@ -9,8 +9,11 @@ html, body {
 	width: 30%;
 	min-width: 300px;
 	max-width: 500px;
-	height: 30%;
-	min-height: 400px;
+	height: 25%;
+	min-height: 200px;
+	border: 2px solid indigo;
+	border-radius: 5px;
+
 
 }
 
