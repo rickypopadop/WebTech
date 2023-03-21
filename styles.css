@@ -6,7 +6,9 @@ html, body {
 
 .recipeBox {
 	float: left;
-	width: 300px;
+	width: 30%;
+	min-width: 300px;
+	
 
 }
 
