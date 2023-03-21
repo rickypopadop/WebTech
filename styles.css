@@ -8,6 +8,7 @@ html, body {
 	float: left;
 	width: 30%;
 	min-width: 300px;
+	max-width: 500px;
 	height: 30%;
 	min-height: 400px;
 
