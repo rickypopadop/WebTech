@@ -18,9 +18,11 @@ html, body {
 
 
 }
-
+#recipeTags {
+	width: 50%;
+}
 #navbar {
-	height: 100px;
+	height: 40px;
 }
 .taskbar {
 	color: red;
