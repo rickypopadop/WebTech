@@ -1,6 +1,10 @@
 html, body {
 	margin: 0px;
 	width: 100%;
+	background-image: url('PancakeBackGround.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 
 }
 
