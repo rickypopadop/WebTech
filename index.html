@@ -6,42 +6,42 @@
 	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 	<link rel="stylesheet" href="styles.css">
 	<title>CourseWork - Header 1, Homepage</title>
-
+	<script src="menuData.js"></script>
+	<script src="multipleFunctions.js"></script>
 </head>
-<body>
+<body  style="background-image: url('./PancakeBackGround.jpg');">
 	<header>	
+		<div class="container">
 
-		<nav id="navbar" style="background-color: green">
-			
-				<a class="taskbar" href="history">History</a>
-				<a class="taskbar" href="Contact Us">Contact Us</a>
-				<input class="taskbar" type="text" name="search">
-				<a class="taskbar" href="savoury">sometext</a>
-				<a class="taskbar" href="sweet">sometext</a>
-			
-		</nav>
+			<nav id="navbar">
+				<ul>
+					<li><a class="taskbar" href="history.html">History</a></li>
+					<li><a class="taskbar" href="contactUs.html">Contact Us</a></li>
+					<input class="taskbar" type="text" name="search">
+					<li><a class="taskbar" onclick='savORsweet(false)'>Savoury</a></li>
+					<li><a class="taskbar" onclick='savORsweet(true)'>Sweet</a></li>
+				</ul>
+			</nav>
+		
+			<div id="logo">
+				<h1 onclick='resetHidden()'><span class="highlight">pancake</span> webpage</h1>
+			</div>
+		</div>
+
 		
 	</header>
+ 
+	<section id="boxes">
 
-	<div id="recipeTags" style="background-color: black;">
-		<div id="recipe1" class="recipeBox" style="background-color: red;">
-			<h2>Pancake recipe 1</h2>
-			<p>and a paragraph</p>
+		<div class="container" id="continental">
+
 		</div>
-		<div id="recipe2" class="recipeBox" style="background-color: yellow;">
-			<h2>Pancake reicpe 2</h2>
-			<p>here is a paragraph</p>
-		</div>
-		<div id="recipe3" class="recipeBox" style="background-color: blue;">
-			<h2>Pancake reicpe 3</h2>
-			<p>here is a paragraph</p>
-		</div>
-		<div id="recipe4" class="recipeBox" style="background-color: green;">
-			<h2>Pancake reicpe 4</h2>
-			<p>here is a paragraph</p>
-		</div>
-	</div>
+	</section>
+	<script type="text/javascript">
+		buildPancake()
+	</script>
 
 </body>
+
 </html>
 

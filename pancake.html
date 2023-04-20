@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>pancake</title>
+	<script src="menuData.js"></script>
+</head>
+<body>
+
+<script type="text/javascript">
+	function sanitizedID(id) {
+		if (!isNaN(id)){
+			if (id >= 1 && id <= data["pancakes"].length){
+				return id
+			}
+		}
+		window.location.href = "index.html"
+	}
+
+	function searchId(id){
+		console.log(id)
+		for (i=0; i<data["pancakes"].length; i++){
+			if (data["pancakes"][i]["id"] == id){
+				return data["pancakes"][i]
+			}
+		}
+		return null
+	}
+	
+
+	id = window.location.href.split("#")[1]
+	console.log(searchId(sanitizedID(id)))
+</script>
+</body>
+</html>
