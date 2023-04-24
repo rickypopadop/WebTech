@@ -56,7 +56,7 @@ function searchId(id){
 	return null
 }
 function buildPage(p){
-	page=``
+	page=` <h1>${p["name"]}</h1> `
 	page+=`<div class="row">
 				<div class="column">
 					<div id="ingrediants">
