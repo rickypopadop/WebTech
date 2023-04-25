@@ -64,7 +64,7 @@ header nav{
 
 }
 
-header .highlight, header .current a{
+.highlight{
 	color: black;
 	font-weight: bold;
 }
