@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CourseWork - Header 2, History</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="multipleFunctions.js"></script>
+</head>
+<body>
+		<header>
+		<div class="container">
+
+			<nav id="navbar">
+				<ul>
+					
+					<li><a class="taskbar" href="ContactUs.html">Contact Us</a></li>
+					<li><a class="taskbar" onclick='zwolfinch()'>12Inch</a></li>
+					<li><a class="taskbar" onclick='Poffertjes()'>Poffertjes</a></li>
+	
+
+				</ul>
+			</nav>
+		
+			<div id="logo">
+				<h1 onclick='homePage()'><span class="highlight">Go Dutch Pancakes</span></h1>
+			</div>
+		</div>
+	</header>
+
+	
+	<div id="12inch" style="margin-top: 120px; margin-left: 5%; margin-right: 10%;">
+		<h2>A little history of 12 inch pancakes</h2>
+		<p>Dutch pancakes, also known as pannenkoeken, have been a traditional dish in the Netherlands for centuries. These pancakes are typically larger and thinner than American pancakes, and are often served with a variety of toppings, both sweet and savory.</p>
+
+		<p>The 12-inch Dutch pancake, also known as a "pannenkoek", is a popular variation of this traditional dish. The history of this specific size is not clear, but it is likely that it developed over time as a result of Dutch cooking traditions and cultural influences.</p>
+
+		<p>One possible explanation for the popularity of the 12-inch size is the Dutch practice of "sharing plates", where food is served family-style and shared among the diners. A 12-inch pancake is large enough to share among several people, making it a great option for a family meal or social gathering.</p>
+
+		<p>Another factor that may have contributed to the popularity of the 12-inch pancake is the availability of large, flat griddles, which are commonly used in Dutch pancake restaurants and make it easy to cook large, thin pancakes.</p>
+
+		<p>
+		Today, 12-inch Dutch pancakes are a popular menu item in many restaurants in the Netherlands, as well as in other countries around the world where Dutch cuisine is celebrated. They can be served with a variety of toppings, including bacon, cheese, fruit, and syrup, and are enjoyed both as a sweet and savory dish.</p>
+	</div>
+	<div id="Poffertjes" style="margin-top: 20px; margin-left: 5%; margin-right: 10%; border-top: black 1px solid;">
+		<h2>A little history of Poffertjes</h2>
+		<p>Poffertjes are a traditional Dutch mini-pancake that have been a popular treat in the Netherlands for centuries. The history of poffertjes can be traced back to the 17th century, when they were first mentioned in Dutch literature as a popular snack.</p>
+
+		<p>Originally, poffertjes were made from buckwheat flour, yeast, and milk, and were cooked on a cast-iron stove over an open flame. They were typically served with butter and powdered sugar, and were a popular street food at festivals and markets.</p>
+
+		<p>Over time, the recipe for poffertjes evolved to include wheat flour, eggs, and baking powder, and the cooking method shifted to using specialized poffertjes pans with indentations to create the small, fluffy pancakes.</p>
+
+		<p>Today, poffertjes are enjoyed throughout the Netherlands and around the world, and are often served with a variety of toppings such as butter, powdered sugar, syrup, and fresh fruit. They are a popular treat at street fairs and festivals, and are also served in many Dutch pancake houses and restaurants.</p>
+
+
+	</div>
+		
+	<script type="text/javascript">
+
+	function zwolfinch(){
+
+
+		message = new SpeechSynthesisUtterance();
+		message.text = "Dutch pancakes, also known as pannenkoeken, have been a traditional dish in the Netherlands for centuries. These pancakes are typically larger and thinner than American pancakes, and are often served with a variety of toppings, both sweet and savory. The 12-inch Dutch pancake, also known as a pannenkoek, is a popular variation of this traditional dish. The history of this specific size is not clear, but it is likely that it developed over time as a result of Dutch cooking traditions and cultural influences. One possible explanation for the popularity of the 12-inch size is the Dutch practice of sharing plates, where food is served family-style and shared among the diners. A 12-inch pancake is large enough to share among several people, making it a great option for a family meal or social gathering. Another factor that may have contributed to the popularity of the 12-inch pancake is the availability of large, flat griddles, which are commonly used in Dutch pancake restaurants and make it easy to cook large, thin pancakes. Today, 12-inch Dutch pancakes are a popular menu item in many restaurants in the Netherlands, as well as in other countries around the world where Dutch cuisine is celebrated. They can be served with a variety of toppings, including bacon, cheese, fruit, and syrup, and are enjoyed both as a sweet and savory dish.";
+		window.speechSynthesis.speak(message)
+	}
+	function Poffertjes(){
+		message = new SpeechSynthesisUtterance();
+		message.text = "Poffertjes are a traditional Dutch mini-pancake that have been a popular treat in the Netherlands for centuries. The history of poffertjes can be traced back to the 17th century, when they were first mentioned in Dutch literature as a popular snack. Originally, poffertjes were made from buckwheat flour, yeast, and milk, and were cooked on a cast-iron stove over an open flame. They were typically served with butter and powdered sugar, and were a popular street food at festivals and markets. Over time, the recipe for poffertjes evolved to include wheat flour, eggs, and baking powder, and the cooking method shifted to using specialized poffertjes pans with indentations to create the small, fluffy pancakes. Today, poffertjes are enjoyed throughout the Netherlands and around the world, and are often served with a variety of toppings such as butter, powdered sugar, syrup, and fresh fruit. They are a popular treat at street fairs and festivals, and are also served in many Dutch pancake houses and restaurants.";
+		window.speechSynthesis.speak(message)
+	}
+
+
+	</script>
+</body>
+
+</html>
